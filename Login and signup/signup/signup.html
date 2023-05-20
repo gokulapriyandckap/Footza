@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Footza signup-page</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="contact-box">
+            <div class="animation-box">
+                <img src="/imgs/signpage img.svg" alt="">
+            </div>
+            <div class="signup-form">
+                <h1>welcome to FootZa</h1>
+                <h4>we are hoping you having a great day</h4>
+                <div class="form-list">
+                    <div class="form-item">
+                        <label class="name"> First Name</label>
+                        <input placeholder=" First Name" class="first-name" pattern="[a-z A-Z ]*" type="text"
+                            name="sender">
+                        <p class="validation-mail-firstname"> Please Enter a First Name*</p>
+                    </div>
+                    <div class="form-item">
+                        <label class="name">Second Name</label>
+                        <input placeholder="second Name" class="second-name" type="text" pattern="[a-z A-z]*"
+                            name="sender">
+                        <p class="validation-mail-secondname"> Please Enter a Second Name*</p>
+
+                    </div>
+                </div>
+                <div class="form-list">
+                    <div class="form-item">
+                        <label class="Email">Email</label required>
+                        <input placeholder="Example@mail.com" class="signup-mail" pattern="[a-z@.0-9]*" type="text"
+                            name="sender">
+                        <p class="validation-mail-signup"> Please Enter Valid Email*</p>
+                    </div>
+                    <div class="form-item">
+                        <label class="name">Address</label>
+
+                        <input placeholder="Address"  type="text" id="address" name="sender"    >
+                        <p class="validation-mail-address"> Please Enter the Address*</p>
+
+                    </div>
+                </div>
+                <div class="form-list">
+                    <div class="form-item">
+                        <label>Create Password</label>
+                        <input placeholder="Create Password" id="password" class="signup-password" type="password"
+                            name="password">
+                        <p class="validation-pw-signup"> Please Enter a Valid Password*</p>
+
+                        <button class="visible" id="show-password"><img src="/imgs/visible.svg" alt=""></button>
+                        <button class="visible-hidden" id="hide-password"><img src="/imgs/visible-hide.svg"
+                                alt=""></button>
+                    </div>
+                    <div class="form-item">
+                        <label>Confirm Password</label>
+                        <input placeholder="Confirm Password" class="Confirm-password" id="password" type="password"
+                            name="password">
+                        <p class="validation-confirmpw-signup"> Your Confirm Password Didn't Match*</p>
+
+
+                        <button class="visible" id="show-password"><img src="/imgs/visible.svg" alt=""></button>
+                        <button class="visible-hidden" id="hide-password"><img src="/imgs/visible-hide.svg"
+                                alt=""></button>
+
+                    </div>
+                </div>
+
+                <div>
+                    <button class="signup-btn">Create an Account?</button>
+                </div>
+                <h3>Already have an Account? <span><a href="/log in/login.html" class="">Login here!</a></span></h3>
+            </div>
+        </div>
+    </div>
+    <script src="/log in/index.js"></script>
+</body>
+
+</html>

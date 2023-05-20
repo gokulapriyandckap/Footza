@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signpage</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="contact-box">
+            <div class="animation-box">
+                <img src="/imgs/signpage img.svg" alt="">
+            </div>
+            <div class="signup-form">
+                <h1>welcome to FootZa</h1>
+                <h4>we are hoping you having a great day</h4>
+                    <div class="form-list">
+                        <div class="form-item">
+                            <input placeholder=" First Name" pattern="[a-z A-Z ]*"  type="text" name="sender">
+                            <label class="name"> First Name</label>
+                        </div>
+                        <div class="form-item">
+                            <input placeholder="second Name" type="text"  pattern="[a-z A-z]*" name="sender">
+                            <label class="name">Second Name</label>
+                        </div>
+                    </div>
+                    <div class="form-list">
+                        <div class="form-item">
+                            <input placeholder="Email@mail.com"   pattern="[a-z@.0-9]*" type="text" name="sender">
+                            <label class="Email">Email</label required>
+                        </div>
+                        <div class="form-item">
+                            <input placeholder="Address"  type="text" name="sender">
+                            <label class="name">Address</label>
+                        </div>
+                    </div>
+                    <div class="form-list">
+                        <div class="form-item">
+                            <input placeholder="Create Password"  id="password" type="password" name="password">
+                            <!-- <div class="password"> -->
+                            <label>Create Password</label>
+
+                            <button class="visible" id="show-password"><img src="/imgs/visible.svg" alt=""></button>
+                            <button class="visible-hidden" id="hide-password"><img src="/imgs/visible-hide.svg"
+                                    alt=""></button>
+                        </div>
+                        <div class="form-item">
+                            <input placeholder="Confirm Password"  id="password"  type="password"   name="password">
+                            <!-- <div class="password"> -->
+
+                            <label>Confirm Password</label>
+                            <button class="visible" id="show-password"><img src="/imgs/visible.svg" alt=""></button>
+                            <button class="visible-hidden" id="hide-password"><img src="/imgs/visible-hide.svg"
+                                    alt=""></button>
+
+                        </div>
+                    </div>
+
+                    <div>  
+                            <a href="homepage.html"><button class="signup-btn">Create an Account?</button></a>
+                    </div>
+                    <h3>Already have an Account? <span><a href="/log in/login.html">Login here!</a></span></h3>
+            </div>
+        </div>
+    </div>
+    <script src="/log in/index.js"></script>
+</body>
+
+</html>

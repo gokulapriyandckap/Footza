@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+
+
+body {
+    background-color: #FFFFFF;
+    /* overflow-y: hidden; */
+    overflow-x: hidden;
+}
+
+h3 {
+    margin-left: 5rem;
+}
+
+
+.contact-box {
+    display: flex;
+    justify-content: center;
+    margin: 15px 81px 0px 81px;
+    gap: 50px;
+    width: 1000px;
+}
+
+.animation-box {
+    background-color: white;
+    width: 550px;
+}
+
+.signup-form {
+    height: 404px;
+    width: 350px;
+    margin-top: 33px;
+    font-size: 14px;
+}
+
+.form-list {
+    display: flex;
+    gap: 16px;
+}
+input{
+    width: 250px;
+    height: 50px;
+    border: 1px solid #252525;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 10px;
+    padding-left: 5px ;
+    outline: none;
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 1px 8px; */
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 1px 7px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.form-item {
+    margin: 0px 0px 32px 0px;
+    position: relative;
+}
+
+label {
+    display: block;
+    position: absolute;
+    top: -14px;
+    margin-left: 6px;
+}
+
+a {
+    text-decoration: none;
+    color: #252525;
+}
+
+
+.visible {
+    display: block;
+    position: absolute;
+    top: 23px;
+    margin-left: 207px;
+    background-color: white;
+    border: none;
+}
+
+.visible-hidden {
+    display: block;
+    position: absolute;
+    top: 23px;
+    margin-left: 207px;
+    background-color: white;
+    border: none;
+}
+
+h2 {
+    font-size: 24px;
+
+}
+
+h4 {
+    font-size: 16px;
+    margin-bottom: 39px;
+
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+a{
+    color: #065451; 
+ }
+.signup-btn {
+    width: 525px;
+    height: 55px;
+    margin-bottom: 32px;
+    border-radius: 4px;
+    color: white;
+    background-color: #065451;
+    border: 1px solid #252525;
+    font-weight: 600;
+}
+.signup-btn:hover{
+    box-shadow: #065451 0px 3px 8px;
+}
+input:invalid {
+    border: 2px solid #065451;
+    animation: shake 0.2s 2;
+  }
+  @keyframes shake{
+    25% {
+        translate: 6px 0;
+
+    }
+    50%{
+        translate: -6px 0;
+    }
+    75%{
+        translate: 6px 0;
+    }
+  }
+.validation-mail-signup{
+    color: red;
+    display: none;
+}
+.animation{
+    display: block;
+    animation: shake 0.2s 2;
+}
+.validation-confirmpw-signup{
+    color: red;
+    display: none;
+}
+.validation-pw-signup{
+    color: red;
+    display: none;
+}
+.add{
+    display: block;
+    animation: shake 0.2s 2; 
+}
+.validation-mail-firstname{
+ display: none;
+ color: red;
+}
+.validation-mail-secondname{
+    display: none;
+    color: red;
+}
+.validation-mail-address{
+    color: red;
+    display: none;
+}
+.show{
+    display: block;
+    animation: shake 0.2s 2; 
+}
